@@ -1,9 +1,13 @@
-const change = document.getElementById('change');
-myButton.addEventListener('click', () => {
+const orginal = document.getElementById('original');
+original.addEventListener('click', () => {
     alert('Button clicked!')});
-const begin = document.getElementById('begin');
-myButton.addEventListener('click', () => {
-    alert('Button clicked!')});
-const return = document.getElementById('return');
-myButton.addEventListener('click', () => {
+const option1 = document.getElementById('option1');
+option1.addEventListener('click', () => {
+    alert('Button clicked!')
+});
+const option2 = document.getElementById('option2');
+if (option2.addEventListener('click')==true){
+    option2.style.visibility = 'hidden';
+}
+option2.addEventListener('click', () => {
     alert('Button clicked!')});
