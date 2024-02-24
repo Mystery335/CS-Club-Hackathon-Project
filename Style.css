@@ -3,7 +3,7 @@
 
 }
 
-h1 {
+h1, h2, h3, h4 {
     text-align:center;
 }
 
@@ -12,7 +12,14 @@ h1 {
 
 }
 
-#back {
+.back {
     background-image: url("../Background.jpg");
     background-size: cover;
+}
+
+#return, #begin {
+    position: relative;
+    left: 265px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(190, 230, 206);
 }
