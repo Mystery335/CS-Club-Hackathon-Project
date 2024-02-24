@@ -6,8 +6,9 @@ option1.addEventListener('click', () => {
     alert('Button clicked!')
 });
 const option2 = document.getElementById('option2');
-if (option2.addEventListener('click')==true){
-    option2.style.visibility = 'hidden';
-}
+let hide=false;
 option2.addEventListener('click', () => {
-    alert('Button clicked!')});
+    hide=true});
+if(hide==true){
+    option2.style.visibilty='hidden';
+}
