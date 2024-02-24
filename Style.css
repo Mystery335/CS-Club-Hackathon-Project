@@ -1,0 +1,18 @@
+* {
+    color:white;
+
+}
+
+h1 {
+    text-align:center;
+}
+
+#img {
+    background-image: url(Background.jpg);
+
+}
+
+#back {
+    background-image: url("../Background.jpg");
+    background-size: cover;
+}
