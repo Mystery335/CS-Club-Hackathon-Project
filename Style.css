@@ -1,0 +1,46 @@
+* {
+    color:white;
+
+}
+
+h1, h2, h3, h4 {
+    text-align:center;
+}
+
+#forest {
+    background-image: url("Drawing.jpg");
+    background-size: 100% auto;
+}
+
+.back {
+    background-image: url("Background.jpg");
+    background-size: contain;
+}
+
+button {
+    margin:auto;
+    display:block;
+    color: rgb(30, 0, 255);
+    background-color: rgb(141, 227, 247);
+
+}
+
+#title {
+    text-align: left;
+    position:relative;
+    top:150px;
+    font-size: 17px;
+    clear:top;
+
+}
+
+#Red-cover {
+    position:relative;
+    top: 150px;
+    float:left;
+}
+
+.option {
+    color:rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255)
+}
