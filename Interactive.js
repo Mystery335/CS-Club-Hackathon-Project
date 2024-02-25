@@ -7,7 +7,7 @@ const original = document.getElementById("original").value;
 const option1 = document.getElementById("option1").value;
 const option2 = document.getElementById("option2").value;
     const buttons = document.querySelectorAll('.option');
-    buttons.forEach((button) => {
+    buttons.forEach((button) => { 
         if(clickedButton.value == original) {
             saved = original;
             choice1="LIttle Red Riding Hood talks with the wolf without any sense of danger. She told the wolf where she’s headed. The wolf gets to her grandmother’s house faster than her, eats her grandma, and tricks Little Red Riding Hood into the house when she gets there. She was devoured. Little Red Riding Hood died for being too naive.";
