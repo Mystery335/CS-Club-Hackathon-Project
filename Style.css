@@ -51,7 +51,7 @@ span{
     color:black
 }
 #chosen{
-    color:black
+    color:black !important;
 }
 #large{
     text-align: center;
