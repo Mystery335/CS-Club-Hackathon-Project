@@ -1,3 +1,3 @@
 function hide(x){
-    x.disabled=true;
+    x.style.display='none';
 }
