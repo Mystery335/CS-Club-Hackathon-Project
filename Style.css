@@ -45,8 +45,8 @@ button {
     background-color: rgb(255, 255, 255)
 }
 p{
-    color:black
+    color:black !important
 }
 span{
-    color:black
+    color:black !important
 }
