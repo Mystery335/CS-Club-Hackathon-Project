@@ -8,7 +8,7 @@ h1, h2, h3, h4 {
 }
 
 #forest {
-    background-image: url("Drawing.jpg");
+    background-color:rgba(94, 247, 122, 0.995);
     background-size: 100% auto;
 }
 
@@ -45,14 +45,17 @@ button {
     background-color: rgb(255, 255, 255)
 }
 p{
-    color:black
+    color:rgb(0, 51, 255)
 }
 span{
-    color:black
+    color:rgb(0, 51, 255)
 }
 #chosen{
     color:black !important;
 }
+.chosen{
+        color:rgb(0, 0, 0) !important;
+}        
 #large{
     text-align: center;
     font-size: 100px;
