@@ -6,11 +6,11 @@
         </head>
         <body id = "forest" >
             <a href="Select.html"><button id="change">Different Story</button></a>
-            <button class = "option " id ="original">Talk to the wolf</button>
-            <button class = "option " id ="option1">Run from the wolf</button>
-            <button class = "option " onclick="hide(this)">Fight the wolf</button>
-                <script src="Interactive.js">
-</script>
+            <button class = "option " id ="original" onclick="disable(option1,option2)">Talk to the wolf</button>
+            <button class = "option " id ="option1" onclick="disable(original,option2)">Run from the wolf</button>
+            <button class = "option " id ="option2" onclick="disable(option1,original)">Fight the wolf</button>
+            <script src="Interactive (1).js"></script>
+            
             
         
         
