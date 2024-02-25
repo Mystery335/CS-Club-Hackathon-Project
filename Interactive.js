@@ -1,3 +1,4 @@
+//Some fomats of code found from W3school.com
 let saved;
 function hideButton(clickedButton) {
 const original = document.getElementById("original").value;
