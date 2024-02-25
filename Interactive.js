@@ -6,5 +6,5 @@ option1.addEventListener('click', () => {
     alert('Button clicked!')
 });
 function hide(x){
-    x.style.display='none';
+    x.disabled=true;
 }
