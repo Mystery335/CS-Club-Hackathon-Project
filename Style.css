@@ -42,11 +42,19 @@ button {
 
 .option {
     color:rgb(255, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255)
 }
 p{
-    color:black !important;
+    color:black
 }
 span{
-    color:black !important;
+    color:black
+}
+#chosen{
+    color:black
+}
+#large{
+    text-align: center;
+    font-size: 100px;
+    color:black
 }
